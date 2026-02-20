@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Control de Gastos – Iniciar Sesión</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=DM+Sans:wght@400;600&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="LoginStyle.css">
+</head>
+
+<body>
+
+    <div id="tarjeta">
+
+        <!-- LADO IZQUIERDO -->
+        <div id="lado-izquierdo">
+            <h1>Bienvenidos a Control G</h1>
+            <p class="subtitulo">Pequeños hábitos crean grandes fortunas</p>
+
+            <div id="ilustracion">
+                <span><img src="DineroPrincipal.png" alt="dinero"></span>
+            </div>
+
+            <div class="cuadro-informacion">
+
+                <div class="item-informacion">
+                    <span class="icono">💲</span>
+                    <div class="texto">
+                        <strong>Registra tus ingresos y gastos</strong>
+                        <p>Establece metas de ahorro y toma el control de tus finanzas.</p>
+                    </div>
+                </div>
+
+                <div class="item-informacion">
+                    <span class="icono">👥</span>
+                    <div class="texto">
+                        <strong>Únete a nuestra comunidad financiera</strong>
+                        <p>Conéctate con Google, Apple o Facebook para iniciar.</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- LADO DERECHO -->
+        <div id="lado-derecho">
+            <h2>Inicia sesión en tu cuenta</h2>
+            <p class="registro">¿No tienes una cuenta? <a href="#">Regístrate</a></p>
+
+            <form action="#" onsubmit="return false;">
+
+                <label for="correo">Correo electrónico</label>
+                <input type="text" id="correo" name="correo" placeholder="ejemplo@email.com">
+
+                <label for="clave">Contraseña</label>
+                <input type="password" id="clave" name="clave" placeholder="••••••••">
+
+                <div class="olvido-contraseña">
+                    <a href="#">¿Olvidaste tu contraseña?</a>
+                </div>
+
+                <button type="submit" class="boton-ingresar">Iniciar sesión</button>
+
+                <div class="divisor"><span>O</span></div>
+
+                <div class="fila-Red social">
+                    <button type="button" class="boton-social">Google</button>
+                    <button type="button" class="boton-social">Instagram</button>
+                    <button type="button" class="boton-social">Facebook</button>
+                </div>
+
+                <div class="fila-final">
+                    <label><input type="checkbox" checked> Recordarme</label>
+                </div>
+
+            </form>
+        </div>
+
+    </div>
+
+</body>
+
+</html>
